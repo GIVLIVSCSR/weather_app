@@ -1,0 +1,62 @@
+form
+  margin-top: 156px
+  text-align: center
+  position: relative
+  //border: 1px solid lightblue
+
+label
+  display: block
+  font-size: 37px
+  padding-top: 23px
+  padding-bottom: 15px
+  
+.input-for-search
+  width: 37%
+  height: 37px
+  display: block
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 15px
+  border-top: 0
+  border-left: 0
+  border-right: 0
+  font-size: 23px
+  color: #000
+  text-align: center
+  padding-bottom: 3px
+  &:focus
+    outline: none
+    border-bottom: 1px solid #ddd
+
+.button
+  border: none
+  border-radius: 15px
+  padding: 10px 23px
+  font-size: 14px
+  //text-transform: uppercase
+  letter-spacing: 0.1em
+  background: $blue
+  cursor: pointer
+  font-weight: 600
+  color: #000
+  &:hover
+    background: $blue-hover
+  &:focus
+    outline: none
+
+.button-search
+  &:focus
+    background: $blue-focus
+  
+.inline-error
+  height: 20px
+  color: pink
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  margin: 0 auto
+  //border: 1px solid lightblue
+  font-size: 16px
+  //display: none
